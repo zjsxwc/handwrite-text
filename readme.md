@@ -11,3 +11,8 @@
 4. 打开`output.docx`检查生成结果
 
 
+<p align="center">
+    <a href="#">
+      <img src="https://raw.githubusercontent.com/zjsxwc/handwrite-text/master/preview.jpg" width=350>
+    </a>
+</p>

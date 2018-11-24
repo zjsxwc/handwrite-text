@@ -46,6 +46,11 @@ while ($i < mb_strlen($text)) {
     $i++;
     if ($char == "\n") {
         $section->addTextBreak();
+
+        $textrun = $section->addTextRun();
+        $myTextElement = $textrun->addText(" ");
+        $textrun->setParagraphStyle(array('spaceAfter' => rand(100,105)));
+
         $textrun = $section->addTextRun();
         $textrun->setParagraphStyle(array('spaceAfter' => rand(100,105)));
         continue;
